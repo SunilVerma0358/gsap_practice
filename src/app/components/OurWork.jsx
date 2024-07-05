@@ -76,7 +76,7 @@ const OurWork = () => {
             {ourWork.map((obj, index) => (
               <div
                 key={index}
-                className="max-w-[300px] sm:max-w-[250px] lg:max-w-[300px] mx-auto sm:mx-0"
+                className="max-w-[310px] sm:max-w-[250px] lg:max-w-[300px] ms-auto sm:mx-0"
                 ref={(el) => (cardsRef.current[index] = el)}
               >
                 <div className="bg-transparent rounded-xl p-6 h-full relative">
@@ -90,15 +90,15 @@ const OurWork = () => {
               </div>
             ))}
           </div>
-          <div className="h-[924px] sm:h-[500px] w-[1px] bg-white bg-opacity-[16%] absolute top-[5%] sm:top-[20%] left-[2%] sm:left-[50%] sm:translate-x-1/2 md:hidden">
+          <div className="h-[924px] sm:h-[500px] w-[1px] bg-white bg-opacity-[16%] absolute top-[5%] sm:top-[20%] left-[5%] sm:left-[50%] sm:translate-x-1/2 md:hidden">
             <div className="-translate-y-0 flex gap-28 sm:gap-10 items-center flex-col">
-              <div className="relative top-[-60%]">
+              <div className="relative top-[-60%] z-[1]">
                 <span className="number_series">1</span>
                 <span className="absolute z-[-1] bottom-[-10%] max-sm:right-[-45%] sm:bottom-[-6%] sm:left-[-20%] md:bottom-[77%] md:left-[45%] max-md:-rotate-90 max-sm:rotate-90">
                   <BlueLineIcon />
                 </span>
               </div>
-              <div className="relative top-[-50%]">
+              <div className="relative top-[-50%] z-[1]">
                 <span className="number_series">2</span>
                 <span className="absolute top-[10%] md:top-[75%] -right-[45%] max-md:-rotate-90 md:left-[45%]">
                   <BlueLineTopIcon />
@@ -174,7 +174,7 @@ const OurWork = () => {
             {ourWorktwo.map((obj, index) => (
               <div
                 key={index}
-                className="max-w-[300px] sm:max-w-[250px] lg:max-w-[300px] mx-auto sm:ms-auto sm:mr-0"
+                className="max-w-[300px] sm:max-w-[250px] lg:max-w-[300px] ms-auto sm:mr-0"
                 ref={(el) => (cardsRefTwo.current[index] = el)}
               >
                 <div className="bg-transparent rounded-xl p-6 h-full relative">
