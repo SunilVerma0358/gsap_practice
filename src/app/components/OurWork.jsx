@@ -31,6 +31,7 @@ const OurWork = () => {
         ease: "power3.out",
       }
     );
+
     it.fromTo(
       cardsRefTwo.current,
       {

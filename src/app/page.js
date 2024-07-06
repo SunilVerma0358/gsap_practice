@@ -1,10 +1,8 @@
-import OurWork from "./components/OurWork";
+import ScrollTriggerWork from "./components/ScrollTriggerWork";
 export default function Home() {
-    return ( <
-        >
-        <
-        OurWork / >
-        <
-        />
-    );
+  return (
+    <>
+      <ScrollTriggerWork />
+    </>
+  );
 }

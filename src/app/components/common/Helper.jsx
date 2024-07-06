@@ -32,3 +32,54 @@ export const ourWorktwo = [
     number: "6",
   },
 ];
+export const roadmapData = [
+  {
+    id: 1,
+    title: "Launch website platform",
+    description:
+      "Connect and manage multiple wallets like MetaMask and Phantom simultaneously.",
+  },
+  {
+    id: 2,
+    title: "Raise initial capital from investors for partnerships",
+    description:
+      "Connect and manage multiple wallets like MetaMask and Phantom simultaneously.",
+  },
+  {
+    id: 3,
+    title: "Launch iOS app",
+    description:
+      "Connect and manage multiple wallets like MetaMask and Phantom simultaneously.",
+  },
+  {
+    id: 4,
+    title: "Partner with interesting and emerging NFT projects",
+    description:
+      "Connect and manage multiple wallets like MetaMask and Phantom simultaneously.",
+  },
+  {
+    id: 5,
+    title:
+      "Raise additional funding for larger-scale partnerships and marketing",
+    description:
+      "Connect and manage multiple wallets like MetaMask and Phantom simultaneously.",
+  },
+  {
+    id: 6,
+    title: "Advertise on large crypto/NFT sites",
+    description:
+      "Connect and manage multiple wallets like MetaMask and Phantom simultaneously.",
+  },
+  {
+    id: 7,
+    title: "Continue to add features that our community requests",
+    description:
+      "Connect and manage multiple wallets like MetaMask and Phantom simultaneously.",
+  },
+  {
+    id: 8,
+    title: "Launch our own native token",
+    description:
+      "Connect and manage multiple wallets like MetaMask and Phantom simultaneously.",
+  },
+];
